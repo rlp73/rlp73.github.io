@@ -1293,13 +1293,15 @@ input, select, textarea {
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
-			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			overflow: hidden;
 		}
 
-			#header .logo .icon:before {
-				font-size: 2rem;
+			#header .logo img {
+				width: 100%;
+				height: auto;
+				display: block;
 			}
 
 		#header .content {
