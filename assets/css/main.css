@@ -1585,7 +1585,7 @@ input, select, textarea {
 				}
 
 				#main article .close:active:before {
-					background-color: rgb(216, 206, 206);
+					background-color: rgb(255, 255, 255, 0.075);
 				}
 
 		@media screen and (max-width: 736px) {
