@@ -1557,12 +1557,6 @@ input, select, textarea {
 				cursor: pointer;
 				overflow: hidden;
 				white-space: nowrap;
-				background-image: url("images/icons8-close-50.png");
-				background-size: contain;
-				background-repeat: no-repeat;
-				background-position: center;
-				transition: background-color 0.2s ease-in-out;
-				border-radius: 100%;
 			}
 
 				#main article .close:before {
@@ -1578,6 +1572,10 @@ input, select, textarea {
 					width: 2.5rem;
 					height: 2.5rem;
 					border-radius: 100%;
+					background-position: center;
+					background-image: url("images/icons8-close-50.png");
+					background-size: contain;
+					background-repeat: no-repeat;
 				}
 
 				#main article .close:hover:before {
@@ -1599,7 +1597,7 @@ input, select, textarea {
 					left: 0.875rem;
 					width: 2.25rem;
 					height: 2.25rem;
-					background-size: contain;
+					background-size: 14px 14px;
 				}
 
 		}
