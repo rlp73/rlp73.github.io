@@ -292,7 +292,7 @@
 				var $this = $(this);
 
 				// Close.
-					$('<div class="close">Close</div>')
+				$('<div class="close"><img src="images/icons8-close-50.png" alt="Close" /></div>')
 						.appendTo($this)
 						.on('click', function() {
 							location.hash = '';
