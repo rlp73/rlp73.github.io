@@ -1575,7 +1575,7 @@ input, select, textarea {
 					border-radius: 100%;
 					background-position: center;
 					background-image: url("../../images/icons8-close-50.png");
-					background-size: 10px 10px;
+					background-size: 60%;
 					background-repeat: no-repeat;
 				}
 
