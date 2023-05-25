@@ -1107,7 +1107,7 @@ input, select, textarea {
 	}
 
 		#bg:before, #bg:after {
-			content: '';
+			content: "";
 			display: block;
 			position: absolute;
 			top: 0;
@@ -1193,7 +1193,7 @@ input, select, textarea {
 	}
 
 		#wrapper:before {
-			content: '';
+			content: "";
 			display: block;
 		}
 
@@ -1258,7 +1258,7 @@ input, select, textarea {
 		}
 
 			#header > *:before {
-				content: '';
+				content: "";
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
@@ -1365,7 +1365,7 @@ input, select, textarea {
 					}
 
 		#header nav.use-middle:after {
-			content: '';
+			content: "";
 			display: block;
 			position: absolute;
 			top: 0;
